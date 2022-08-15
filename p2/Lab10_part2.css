@@ -1,0 +1,10 @@
+body{
+    max-width: 500px;
+    margin: 0 100px;
+}
+img{            	
+    visibility: hidden;
+    height: 60;
+    width: 97;
+}
+

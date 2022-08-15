@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/Lab07.css" rel="stylesheet">
+        <meta name="author" content="Bambang">
+        <meta charset="utf-8">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3>Lab 7: JavaScript Arithmetic Operator</h3>
+        </header>
+        <section>
+            <form name="mycalculator" action='' method='GET'>
+                <fieldset>
+                    <legend>My calculator</legend>
+                    <textarea name="output" rows="3" cols="20"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Input</legend>
+                    Operands: &nbsp;
+                    <input type="text" name="input_a" id="input_a" size="3" maxlength="3">&nbsp;
+                    <input type="text" name="input_b" id="input_b" size="3" maxlength="3">
+                    <br>
+                    Operator: &nbsp;
+                    <input type="button" name="add" value="+" onclick="addValue()">
+                    <input type="button" name="mul" value="&times;" onclick="mulValue()">
+                    <input type="button" name="div" value=":" onclick="divValue()">
+                    <input type="reset" value="clear">
+                </fieldset>
+            </form>
+            
+        </section>
+        <footer>
+
+        </footer>
+    </body>
+</html>
